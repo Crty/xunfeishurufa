@@ -1,0 +1,46 @@
+body { margin: 0 auto; margin-top: 0px; }
+.container { margin: 0 auto; }
+p { margin: 0 10px; }
+p { line-height: 145% }
+h1 { color: #333333; }
+img { width: 100%; margin: -5px auto; }
+.btn { width: auto;padding: 110px 0px 20px 250px; }
+.ok {background: url(xunfei/xunfei_04.jpg) no-repeat; background-size:100%; height:140px; }
+
+ @media (min-width: 300px) {
+.im { width: 100%; }
+.btn {width: 30%; }
+.ok {height:130px;}
+.btn {  padding: 55px 0px 20px 80px;}
+}
+@media (min-width: 400px) {
+.im { width: 100%; }
+.btn {width: 30%; }
+.ok {height:170px;}
+.btn {  padding: 60px 0px 20px 90px;}
+}
+ @media (min-width: 640px) {
+.im { width: 100%; }
+.btn {width: 30%; }
+.ok {height:280px;}
+.btn {  padding: 100px 0px 20px 170px;}
+}
+
+ @media (min-width: 1024px) {
+.im { width: 100%; }
+.btn {width: 30%; }
+.ok {height:420px;}
+.btn {  padding: 150px 0px 20px 240px;}
+}
+
+
+
+}
+@media (min-width:1200px) {
+.im { width: 720px }
+.btn {width: 30%; }
+.btn {padding: 110px 0px 20px 170px; }
+.ok {height:300px;}
+
+}
+.im { margin: 0 auto; }
